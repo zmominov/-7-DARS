@@ -1,0 +1,174 @@
+/* STANDART */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    padding: 24px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    background-color: #DE2E54;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+/* NAV */
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #222222;
+}
+
+/* HERO */
+.hero {
+    background-color: #0EB4C1;
+    padding-top: 29px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    width: 500px;
+    color: white;
+}
+
+.hero-title {
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    margin-bottom: 36px;
+}
+
+.hero-link {
+    background-color: #DE2E54;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+/* SERVICE */
+.service {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.service-container {
+    width: 854px;
+}
+
+.service-title {
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+}
+
+.service-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.service-item:last-child {
+    margin-bottom: 60px;
+}
+
+.service-item-title {
+    margin-bottom: 24px;
+}
+
+.service-img {
+    margin-right: 64px;
+}
+
+.service-link {
+    background-color: #DE2E54;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: #0EB4C1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    color: white;
+}
+
+.contact-note {
+    margin-bottom: 40px;
+}
+
+.contact-link {
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 12px 24px;
+}
+
+.contact-link:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* FOOTER */
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222222;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+}
